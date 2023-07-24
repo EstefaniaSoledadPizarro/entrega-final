@@ -1,0 +1,40 @@
+header {
+    background-color:rgb(34, 166, 153);
+    padding: 20px;
+}
+
+.primera-mayuscula ::first-letter{
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 200px;
+    margin-left:10px;
+}
+
+.nombre-emprendimiento{
+    color: rgb(19, 13, 34);
+    font-family: monospace;
+    margin-left: 35px;   
+}
+
+a {
+    color: rgb(206, 96, 213);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: xx-large;
+    font-weight:200px;
+    text-decoration: none;
+    font-family: monospace;
+    color: rgb(46, 28, 62);
+}
+
+a:link{
+    color: rgb(69, 181, 87);
+}
+
+a:visited{
+    color: rgb(38, 13, 167);
+}

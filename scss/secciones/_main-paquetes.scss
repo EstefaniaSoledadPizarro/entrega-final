@@ -1,0 +1,78 @@
+/* probando */
+.grilla-padre1 {
+    background-color:  rgb(196, 215, 178);
+    border: 4px rgb(12, 64, 64) dotted;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+.paquetes-turisticos{
+    width: 1200px;
+    margin: auto;
+}
+.img-1{  
+ width: 400px;
+    padding: 5px;
+    text-align: center;
+}
+
+.img-2{
+    width: 400px;
+    padding: 5px;
+    text-align: center;
+}
+
+.img-3{
+    width: 400px;
+    padding: 5px;
+    text-align: center;
+}
+
+.titulos-paquetes{
+    font-family: monospace;
+    font-size: large;
+    color: rgb(46, 28, 62);
+    font-weight: bolder;
+}
+.paquete-1{
+    padding: 5px;
+    text-align: center;
+}
+
+.paquete-2{
+    padding: 5px;
+    text-align: center;
+}
+.paquete-3{
+    padding: 5px;
+    text-align: center;
+}
+
+.info-paquetes{
+    font-family: monospace;
+    font-size: medium;
+    color: rgb(46, 28, 62);
+}
+
+.info-1{
+    padding: 5px;
+    text-align: left;
+}
+
+.info-2{
+    padding: 5px;
+    text-align: left;
+}
+
+.info-3{
+    padding: 5px;
+    text-align: left;
+}
+.tabla-paquetes{
+    display: block;
+}
+.card-mobile{
+    display: none;
+}

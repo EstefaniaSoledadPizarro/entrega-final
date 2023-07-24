@@ -1,0 +1,98 @@
+.container-fluid{
+min-height: 30vh;
+}
+
+
+p {
+    font-size: x-large;
+    font-weight: bold;
+    font-family: monospace;
+    color: rgb(46, 28, 62);
+    margin: 10px;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(46, 28, 62);
+    margin: 40px;
+    padding: 10px;
+}
+
+div{
+    padding: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: 27,127,204,.8
+}
+
+article .que-hacer{
+    width: 1000px;
+    display: flex;
+    justify-content: center
+}
+
+.ver-mas{
+    text-decoration: none;
+    color: black;
+    font-size:xx-large
+}
+
+h4 {
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(46, 28, 62);
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.reservas{
+text-transform: uppercase;
+background-color: rgb(103, 170, 189);
+}
+
+
+.fecha-reserva {
+    margin: 40px;
+    padding: 10px;
+    border: double 
+}
+
+.container{
+    width: 100vw;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    background-color: rgb(34, 166, 153);
+    font-size: medium;
+    border: dotted rgb(50, 105, 105);
+    display: flex;
+}
+
+.hijo1-container{
+    flex-wrap: wrap;
+    padding: 8px;
+    text-align: start;
+}
+
+.hijo2-container{
+    flex-wrap: wrap;
+    padding: 8px;
+    text-align: start;
+}
+
+.hijo3-container{
+    flex-wrap: wrap;
+    padding: 8px;
+    text-align: start;
+}

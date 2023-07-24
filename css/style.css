@@ -1,0 +1,239 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif; }
+
+main {
+  background-color: #c4d7b2;
+  padding: 20px; }
+
+@media (max-width: 412px) {
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center; }
+  div .accordion-body {
+    display: flex;
+    justify-content: center; }
+  div .accordion-item {
+    display: flex;
+    justify-content: center; }
+  div .carrousel-iner {
+    margin: 20px; }
+  .tabla-paquetes {
+    display: none; }
+  .card-mobile {
+    display: block;
+    font-size: xx-small; } }
+
+header {
+  background-color: #22a699;
+  padding: 20px; }
+
+.primera-mayuscula ::first-letter {
+  text-transform: uppercase; }
+
+.logo {
+  width: 200px;
+  margin-left: 10px; }
+
+.nombre-emprendimiento {
+  color: #130d22;
+  font-family: monospace;
+  margin-left: 35px; }
+
+a {
+  color: #ce60d5;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  font-size: xx-large;
+  font-weight: 200px;
+  text-decoration: none;
+  font-family: monospace;
+  color: #2e1c3e; }
+
+a:link {
+  color: #45b557; }
+
+a:visited {
+  color: #260da7; }
+
+.container-fluid {
+  min-height: 30vh; }
+
+p {
+  font-size: x-large;
+  font-weight: bold;
+  font-family: monospace;
+  color: #2e1c3e;
+  margin: 10px; }
+
+article {
+  display: flex;
+  justify-content: center; }
+
+h2 {
+  font-family: monospace;
+  font-size: x-large;
+  font-weight: bolder;
+  color: #2e1c3e;
+  margin: 40px;
+  padding: 10px; }
+
+div {
+  padding: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: 27,127,204,.8; }
+
+article .que-hacer {
+  width: 1000px;
+  display: flex;
+  justify-content: center; }
+
+.ver-mas {
+  text-decoration: none;
+  color: black;
+  font-size: xx-large; }
+
+h4 {
+  font-family: monospace;
+  font-size: x-large;
+  font-weight: bolder;
+  color: #2e1c3e;
+  margin: 15px;
+  display: flex;
+  justify-content: center; }
+
+.reservas {
+  text-transform: uppercase;
+  background-color: #67aabd; }
+
+.fecha-reserva {
+  margin: 40px;
+  padding: 10px;
+  border: double; }
+
+.container {
+  width: 100vw;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  background-color: #22a699;
+  font-size: medium;
+  border: dotted #326969;
+  display: flex; }
+
+.hijo1-container {
+  flex-wrap: wrap;
+  padding: 8px;
+  text-align: start; }
+
+.hijo2-container {
+  flex-wrap: wrap;
+  padding: 8px;
+  text-align: start; }
+
+.hijo3-container {
+  flex-wrap: wrap;
+  padding: 8px;
+  text-align: start; }
+
+.container-xl {
+  height: 60vh;
+  width: 60vw; }
+
+/* probando */
+.grilla-padre1 {
+  background-color: #c4d7b2;
+  border: 4px #0c4040 dotted;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+
+.paquetes-turisticos {
+  width: 1200px;
+  margin: auto; }
+
+.img-1 {
+  width: 400px;
+  padding: 5px;
+  text-align: center; }
+
+.img-2 {
+  width: 400px;
+  padding: 5px;
+  text-align: center; }
+
+.img-3 {
+  width: 400px;
+  padding: 5px;
+  text-align: center; }
+
+.titulos-paquetes {
+  font-family: monospace;
+  font-size: large;
+  color: #2e1c3e;
+  font-weight: bolder; }
+
+.paquete-1 {
+  padding: 5px;
+  text-align: center; }
+
+.paquete-2 {
+  padding: 5px;
+  text-align: center; }
+
+.paquete-3 {
+  padding: 5px;
+  text-align: center; }
+
+.info-paquetes {
+  font-family: monospace;
+  font-size: medium;
+  color: #2e1c3e; }
+
+.info-1 {
+  padding: 5px;
+  text-align: left; }
+
+.info-2 {
+  padding: 5px;
+  text-align: left; }
+
+.info-3 {
+  padding: 5px;
+  text-align: left; }
+
+.tabla-paquetes {
+  display: block; }
+
+.card-mobile {
+  display: none; }
+
+h5 {
+  font-family: monospace;
+  font-size: large;
+  color: #2e1c3e;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline; }
+
+.autos div {
+  display: flex;
+  justify-content: center; }
+
+.main-galeria {
+  min-height: 246px; }
+
+.carousel-inner {
+  justify-content: space-evenly; }
+
+footer {
+  background-color: #aac8a7;
+  padding: 20px; }
