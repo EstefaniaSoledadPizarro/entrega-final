@@ -1,24 +1,9 @@
 @media(max-width:412px){
-    
     div {
         display: flex;
         flex-wrap: wrap;
-        justify-content: flex-end !important;
+        justify-content: flex-end;
         align-items: center;
-    }
-
-    
-
-    .hijo1-container{
-font-size: small;
-    }
-
-    .hijo2-container{
-        font-size: small;
-    }
-
-    .hijo3-container{
-        font-size: small;
     }
 
     div .accordion-body{
