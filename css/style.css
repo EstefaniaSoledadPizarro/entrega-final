@@ -11,8 +11,14 @@ main {
   div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: flex-end !important;
     align-items: center; }
+  .hijo1-container {
+    font-size: small; }
+  .hijo2-container {
+    font-size: small; }
+  .hijo3-container {
+    font-size: small; }
   div .accordion-body {
     display: flex;
     justify-content: center; }
@@ -28,8 +34,8 @@ main {
     font-size: xx-small; } }
 
 header {
-  background-color: #22a699;
-  padding: 20px; }
+  background-image: linear-gradient(#a470b0, #77cf88);
+  padding: 10px; }
 
 .primera-mayuscula ::first-letter {
   text-transform: uppercase; }
@@ -73,7 +79,11 @@ p {
 
 article {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.reservas-fechas {
+  margin: 10px; }
 
 h2 {
   font-family: monospace;
@@ -89,7 +99,7 @@ div {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  color: 27,127,204,.8; }
+  color: 27, 127, 204, .8; }
 
 article .que-hacer {
   width: 1000px;
@@ -235,5 +245,5 @@ h5 {
   justify-content: space-evenly; }
 
 footer {
-  background-color: #aac8a7;
+  background-color: #9ee8ac;
   padding: 20px; }

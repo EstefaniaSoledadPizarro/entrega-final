@@ -1,5 +1,5 @@
-.container-fluid{
-min-height: 30vh;
+.container-fluid {
+    min-height: 30vh;
 }
 
 
@@ -14,6 +14,11 @@ p {
 article {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.reservas-fechas{
+    margin: 10px;
 }
 
 h2 {
@@ -25,25 +30,25 @@ h2 {
     padding: 10px;
 }
 
-div{
+div {
     padding: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    color: 27,127,204,.8
+    color: 27, 127, 204, .8
 }
 
-article .que-hacer{
+article .que-hacer {
     width: 1000px;
     display: flex;
     justify-content: center
 }
 
-.ver-mas{
+.ver-mas {
     text-decoration: none;
     color: black;
-    font-size:xx-large
+    font-size: xx-large
 }
 
 h4 {
@@ -56,19 +61,19 @@ h4 {
     justify-content: center;
 }
 
-.reservas{
-text-transform: uppercase;
-background-color: rgb(103, 170, 189);
+.reservas {
+    text-transform: uppercase;
+    background-color: rgb(103, 170, 189);
 }
 
 
 .fecha-reserva {
     margin: 40px;
     padding: 10px;
-    border: double 
+    border: double
 }
 
-.container{
+.container {
     width: 100vw;
     list-style-type: none;
     display: grid;
@@ -79,19 +84,19 @@ background-color: rgb(103, 170, 189);
     display: flex;
 }
 
-.hijo1-container{
+.hijo1-container {
     flex-wrap: wrap;
     padding: 8px;
     text-align: start;
 }
 
-.hijo2-container{
+.hijo2-container {
     flex-wrap: wrap;
     padding: 8px;
     text-align: start;
 }
 
-.hijo3-container{
+.hijo3-container {
     flex-wrap: wrap;
     padding: 8px;
     text-align: start;
