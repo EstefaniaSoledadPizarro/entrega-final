@@ -1,3 +1,4 @@
+
 .container-fluid {
     min-height: 30vh;
 }
@@ -100,4 +101,17 @@ h4 {
     flex-wrap: wrap;
     padding: 8px;
     text-align: start;
+}
+
+.card-title-2{
+    font-family: 'Dosis', sans-serif;
+    font-size: large;
+    text-decoration: none;
+    color: rgb(195, 159, 81)
+}
+
+.card-text-2{
+    font-family: 'Dosis', sans-serif;
+    font-size: smaller;
+    color: rgb(175, 126, 19);
 }

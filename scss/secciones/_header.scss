@@ -1,40 +1,125 @@
 header {
-    background-image: linear-gradient(#a470b0 , #77cf88);
+    background-image: linear-gradient(#efe8f0 , hsl(30, 54%, 43%));
     padding: 10px;
+}
+
+.logo{
+        -webkit-animation: jello-horizontal 0.9s 1 both;
+                animation: jello-horizontal 0.9s 1 both;
+    }
+    
+@-webkit-keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+
+  .logo{
+    width: 180px;
+    margin-left:10px;
+    margin-top: 10px;
 }
 
 .primera-mayuscula ::first-letter{
     text-transform: uppercase;
 }
 
-.logo {
-    width: 200px;
-    margin-left:10px;
+.nav-item-1{
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-.nombre-emprendimiento{
-    color: rgb(19, 13, 34);
-    font-family: monospace;
-    margin-left: 35px;   
+.nav-item-2{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nav-item-3{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nav-item-4{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nav-item-5{
+    padding-left: 30px;
+    padding-right: 30px
 }
 
 a {
-    color: rgb(206, 96, 213);
+    color: rgb(238, 103, 12);
     list-style: none;
     display: flex;
     justify-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: xx-large;
     font-weight:200px;
     text-decoration: none;
     font-family: monospace;
-    color: rgb(46, 28, 62);
 }
 
 a:link{
-    color: rgb(69, 181, 87);
+    color: rgb(157, 114, 13);
 }
 
 a:visited{
-    color: rgb(38, 13, 167);
+    color: rgb(13, 113, 33);
 }
