@@ -4,7 +4,7 @@
   font-family: sans-serif; }
 
 main {
-  background-color: #c4d7b2;
+  background-color: #c7b58f;
   padding: 20px; }
 
 @media (max-width: 412px) {
@@ -86,8 +86,11 @@ header {
   margin-left: 10px;
   margin-top: 10px; }
 
-.primera-mayuscula ::first-letter {
+.barra-navegacion ::first-letter {
   text-transform: uppercase; }
+
+.barra-navegacion {
+  font-size: larger; }
 
 .nav-item-1 {
   padding-left: 30px;
@@ -126,15 +129,19 @@ a:link {
 a:visited {
   color: #0d7121; }
 
-.container-fluid {
-  min-height: 30vh; }
+main {
+  color: blanchedalmond; }
 
-p {
-  font-size: x-large;
-  font-weight: bold;
+.servicio-mendoza {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+h1 {
+  color: chocolate !important;
   font-family: monospace;
-  color: #2e1c3e;
-  margin: 10px; }
+  font-size: large;
+  font-weight: bolder; }
 
 article {
   display: flex;
@@ -165,17 +172,25 @@ article .que-hacer {
   display: flex;
   justify-content: center; }
 
+.hacer-provincia {
+  font-family: monospace;
+  color: chocolate;
+  margin-top: 55px;
+  margin-bottom: 10px; }
+
 .ver-mas {
+  margin-top: 60px;
+  margin-left: 10px;
   text-decoration: none;
-  color: black;
-  font-size: xx-large; }
+  font-size: larger; }
+
+h2 .reservas {
+  background-color: chocolate; }
 
 h4 {
   font-family: monospace;
   font-size: x-large;
-  font-weight: bolder;
-  color: #2e1c3e;
-  margin: 15px;
+  color: chocolate !important;
   display: flex;
   justify-content: center; }
 
@@ -188,40 +203,16 @@ h4 {
   padding: 10px;
   border: double; }
 
-.container {
-  width: 100vw;
-  list-style-type: none;
-  display: grid;
-  grid-template-columns: 400px 400px 400px;
-  background-color: #22a699;
-  font-size: medium;
-  border: dotted #326969;
-  display: flex; }
-
-.hijo1-container {
-  flex-wrap: wrap;
-  padding: 8px;
-  text-align: start; }
-
-.hijo2-container {
-  flex-wrap: wrap;
-  padding: 8px;
-  text-align: start; }
-
-.hijo3-container {
-  flex-wrap: wrap;
-  padding: 8px;
-  text-align: start; }
-
 .card-title-2 {
-  font-family: 'Dosis', sans-serif;
-  font-size: large;
+  font-family: monospace;
+  font-size: larger;
   text-decoration: none;
   color: #c39f51; }
 
 .card-text-2 {
-  font-family: 'Dosis', sans-serif;
-  font-size: smaller;
+  font-family: monospace;
+  font-size: large;
+  text-decoration: none;
   color: #af7e13; }
 
 .container-xl {
@@ -315,8 +306,7 @@ h5 {
   justify-content: space-evenly; }
 
 footer {
-  background-color: #c7ab75;
-  padding: 10px; }
+  background-color: #c7ab75; }
 
 .div-footer {
   display: flex;

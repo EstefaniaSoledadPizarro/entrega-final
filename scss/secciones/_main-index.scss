@@ -1,16 +1,29 @@
-
-.container-fluid {
-    min-height: 30vh;
+main {
+    color: blanchedalmond;
 }
 
+.servicio-mendoza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-p {
-    font-size: x-large;
-    font-weight: bold;
+h1 {
+    color: chocolate !important;
     font-family: monospace;
-    color: rgb(46, 28, 62);
-    margin: 10px;
+    font-size: large;
+    font-weight: bolder;
 }
+
+
+
+// p {
+//     font-size: x-large;
+//     font-weight: bold;
+//     font-family: monospace;
+//     color: rgb(46, 28, 62);
+//     margin: 10px;
+// }
 
 article {
     display: flex;
@@ -18,7 +31,7 @@ article {
     flex-wrap: wrap;
 }
 
-.reservas-fechas{
+.reservas-fechas {
     margin: 10px;
 }
 
@@ -46,18 +59,28 @@ article .que-hacer {
     justify-content: center
 }
 
+.hacer-provincia {
+    font-family: monospace;
+    color: chocolate;
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+
 .ver-mas {
+    margin-top: 60px;
+    margin-left: 10px;
     text-decoration: none;
-    color: black;
-    font-size: xx-large
+    font-size: larger
+}
+
+h2 .reservas{
+    background-color: chocolate;
 }
 
 h4 {
     font-family: monospace;
     font-size: x-large;
-    font-weight: bolder;
-    color: rgb(46, 28, 62);
-    margin: 15px;
+    color: chocolate !important;
     display: flex;
     justify-content: center;
 }
@@ -74,44 +97,17 @@ h4 {
     border: double
 }
 
-.container {
-    width: 100vw;
-    list-style-type: none;
-    display: grid;
-    grid-template-columns: 400px 400px 400px;
-    background-color: rgb(34, 166, 153);
-    font-size: medium;
-    border: dotted rgb(50, 105, 105);
-    display: flex;
-}
 
-.hijo1-container {
-    flex-wrap: wrap;
-    padding: 8px;
-    text-align: start;
-}
-
-.hijo2-container {
-    flex-wrap: wrap;
-    padding: 8px;
-    text-align: start;
-}
-
-.hijo3-container {
-    flex-wrap: wrap;
-    padding: 8px;
-    text-align: start;
-}
-
-.card-title-2{
-    font-family: 'Dosis', sans-serif;
-    font-size: large;
+.card-title-2 {
+    font-family: monospace;
+    font-size: larger;
     text-decoration: none;
     color: rgb(195, 159, 81)
 }
 
-.card-text-2{
-    font-family: 'Dosis', sans-serif;
-    font-size: smaller;
+.card-text-2 {
+    font-family: monospace;
+    font-size: large;
+    text-decoration: none;
     color: rgb(175, 126, 19);
 }
