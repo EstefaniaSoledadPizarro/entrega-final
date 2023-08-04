@@ -8,10 +8,17 @@ main {
   padding: 20px; }
 
 @media (max-width: 412px) {
-  div {
+  .video-presentacion-mendoza {
+    width: max-content; }
+  .barra-navegacion {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: flex-end !important; }
+  .reservas-fechas {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    border-radius: 15px;
+    flex-direction: column;
     align-items: center; }
   div .accordion-body {
     display: flex;
@@ -82,35 +89,16 @@ header {
     transform: scale3d(1, 1, 1); } }
 
 .logo {
-  width: 180px;
-  margin-left: 10px;
-  margin-top: 10px; }
+  width: 160px;
+  margin: 10px; }
 
 .barra-navegacion ::first-letter {
   text-transform: uppercase; }
 
 .barra-navegacion {
-  font-size: larger; }
-
-.nav-item-1 {
-  padding-left: 30px;
-  padding-right: 30px; }
-
-.nav-item-2 {
-  padding-left: 30px;
-  padding-right: 30px; }
-
-.nav-item-3 {
-  padding-left: 30px;
-  padding-right: 30px; }
-
-.nav-item-4 {
-  padding-left: 30px;
-  padding-right: 30px; }
-
-.nav-item-5 {
-  padding-left: 30px;
-  padding-right: 30px; }
+  font-size: larger;
+  display: flex;
+  justify-content: center; }
 
 a {
   color: #ee670c;
@@ -149,7 +137,14 @@ article {
   flex-wrap: wrap; }
 
 .reservas-fechas {
-  margin: 10px; }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7ab75;
+  margin-left: 350px;
+  margin-right: 350px;
+  border-radius: 15px; }
 
 h2 {
   font-family: monospace;
@@ -158,14 +153,6 @@ h2 {
   color: #2e1c3e;
   margin: 40px;
   padding: 10px; }
-
-div {
-  padding: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  color: 27, 127, 204, .8; }
 
 article .que-hacer {
   width: 1000px;
@@ -187,21 +174,25 @@ article .que-hacer {
 h2 .reservas {
   background-color: chocolate; }
 
+.reservas {
+  text-transform: uppercase;
+  background-color: #0b611c;
+  border-radius: 5px; }
+
+.fecha-reserva {
+  margin: 40px;
+  padding: 10px;
+  border: double; }
+
+.experiencias {
+  margin-top: 30px; }
+
 h4 {
   font-family: monospace;
   font-size: x-large;
   color: chocolate !important;
   display: flex;
   justify-content: center; }
-
-.reservas {
-  text-transform: uppercase;
-  background-color: #67aabd; }
-
-.fecha-reserva {
-  margin: 40px;
-  padding: 10px;
-  border: double; }
 
 .card-title-2 {
   font-family: monospace;
