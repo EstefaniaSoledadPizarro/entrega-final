@@ -285,13 +285,13 @@ h4 {
     flex-direction: column;
     align-items: center; } }
 
+.carousel-container {
+  display: flex;
+  justify-content: center; }
+
 #accordionExample {
   max-width: 850px;
   margin: auto; }
-
-.container-xl {
-  height: 60vh;
-  width: 60vw; }
 
 .accordion-item {
   background-color: #dedfc4 !important; }
@@ -300,18 +300,24 @@ h4 {
   background-color: #cecfb4 !important;
   color: #0b611c !important; }
 
+.imagen-carrousel {
+  width: 600px; }
+
 @media (max-width: 412px) {
+  main {
+    min-height: 700px; }
+  #accordionExample {
+    margin: auto; }
   div .accordion-body {
     display: flex;
     justify-content: center; }
   div .accordion-item {
     display: flex;
     justify-content: center; }
+  .imagen-carrousel {
+    width: 300px; }
   div .carrousel-iner {
-    margin: 20px; }
-  .card-mobile {
-    display: block;
-    font-size: xx-small; } }
+    margin: 20px; } }
 
 .grid-container {
   display: grid;

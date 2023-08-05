@@ -25,25 +25,26 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item-1">
-                                <a class="nav-link" href="../index.html">inicio</a>
-                            </li>
-                            <li class="nav-item-2">
-                                <a class="nav-link" href="../Pages/Nosotros.html">nosotros</a>
-                            </li>
-                            <li class="nav-item-3">
-                                <a class="nav-link" href="../Pages/Paquetes.html">paquetes</a>
-                            </li>
-                            <li class="nav-item-4">
-                                <a class="nav-link" href="../Pages/Vehiculos.html">vehiculos</a>
-                            </li>
-                            <li class="nav-item-5">
-                                <a class="nav-link" href="../Pages/Contacto.html">contacto</a>
-                            </li>
-                        </ul>
-                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item-1">
+                            <a class="nav-link" href="../index.html">inicio</a>
+                        </li>
+                        <li class="nav-item-2">
+                            <a class="nav-link" href="../Pages/Nosotros.html">nosotros</a>
+                        </li>
+                        <li class="nav-item-3">
+                            <a class="nav-link" href="../Pages/Paquetes.html">paquetes</a>
+                        </li>
+                        <li class="nav-item-4">
+                            <a class="nav-link" href="../Pages/Vehiculos.html">vehiculos</a>
+                        </li>
+                        <li class="nav-item-5">
+                            <a class="nav-link" href="../Pages/Contacto.html">contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
@@ -58,48 +59,55 @@
                         Nuestra historia
                     </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong class="card-title-2">Desde 2012</strong>
-                        <p class="card-text-2">Somos una empresa familiar,
-                            dedicadada al turismo en Mendoza desde hace mas de 10 años, trabajamos con el compromiso y
-                            responsabilidad de hacer cumplir los
-                            sueños
-                            y expectativas de los visitantes desde el momento que llegan a la provincia, ofreciéndoles
-                            alojamiento, vehículos para su traslado y diversas actividades y circuitos
-                            turísticos
-                            que posee esta hermosa provincia.</p>
-                    </div>
+            </div>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong class="card-title-2">Desde 2012</strong>
+                    <p class="card-text-2">Somos una empresa familiar,
+                        dedicadada al turismo en Mendoza desde hace mas de 10 años, trabajamos con el compromiso y
+                        responsabilidad de hacer cumplir los
+                        sueños
+                        y expectativas de los visitantes desde el momento que llegan a la provincia, ofreciéndoles
+                        alojamiento, vehículos para su traslado y diversas actividades y circuitos
+                        turísticos
+                        que posee esta hermosa provincia.</p>
                 </div>
             </div>
         </div>
-
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="../Resources/AlmuerzoBodega.jpg" class="w-40" alt="almuerzo-bodega">
+        <div class="carousel-container">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="imagen-carrousel" src="../Resources/Expedicion-aconcagua.jpg" alt="familia-en-cerro-aconcagua">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="imagen-carrousel" src="../Resources/panoramica-vides.webp" alt="almuerzo-bodega">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="imagen-carrousel" src="../Resources/Puente-del-Inca-Mendoza-Arg-.jpg" alt="puente-del-inca">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="imagen-carrousel" src="../Resources/Travesia-bicicleta-por-bodegas.jpg" alt="bicicletas-en-entrada-bodega">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="imagen-carrousel" src="../Resources/Bodega-montaña-nevada.jpg" alt="montaña-nieve-bodega-parralnevado">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="imagen-carrousel" src="../Resources/tarkking-montaña.jpg" alt="familia-en-cima-montaña">
+                    </div>
+                    
                 </div>
-                <div class="carousel-item">
-                    <img src="../Resources/BodegaNevada.jpg" class="w-40" alt="bodega-nevada">
-                </div>
-                <div class="carousel-item">
-                    <img src="../Resources/Parrales.jpg" class="w-40" alt="parrales">
-                </div>
-                <div class="carousel-item">
-                    <img src="../Resources/ParqueAconcagua.jpg" class="w-40" alt="parque-acocagua">
-                </div>
-                <div class="carousel-item">
-                    <img src="../Resources/PuenteDedlInca.jpg" class="w-40" alt="puente-del-inca">
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
     </main>
     <!-- Footer -->

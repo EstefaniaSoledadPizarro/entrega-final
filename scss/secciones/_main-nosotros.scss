@@ -1,11 +1,11 @@
+.carousel-container{
+    display: flex;
+    justify-content: center;
+}
+
 #accordionExample {
     max-width: 850px;
     margin: auto;
-}
-
-.container-xl {
-    height: 60vh;
-    width: 60vw;
 }
 
 .accordion-item {
@@ -17,8 +17,19 @@
     color: rgb(11, 97, 28) !important;
 }
 
+.imagen-carrousel{
+    width: 600px;
+}
 
 @media(max-width:412px) {
+
+main{
+    min-height: 700px;
+}
+    #accordionExample {
+        margin: auto;
+    }
+
     div .accordion-body {
         display: flex;
         justify-content: center;
@@ -29,12 +40,11 @@
         justify-content: center;
     }
 
-    div .carrousel-iner {
-        margin: 20px;
+    .imagen-carrousel{
+        width: 300px;
     }
 
-    .card-mobile {
-        display: block;
-        font-size: xx-small;
+    div .carrousel-iner {
+        margin: 20px;
     }
 }
