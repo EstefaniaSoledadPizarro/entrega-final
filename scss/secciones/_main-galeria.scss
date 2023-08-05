@@ -1,9 +1,45 @@
-
-.main-galeria{
-min-height: 246px;
+.main-galeria {
+    min-height: 246px;
 }
 
-.carousel-inner{
+.carousel-inner {
     justify-content: space-evenly;
-    }
+}
 
+
+
+
+
+.contacto-paquetes {
+    width: 200px;
+    margin: 20px;
+    padding: 15px;
+    text-transform: uppercase;
+    background-color: rgb(25, 96, 40);
+    border-radius: 15px;
+}
+
+.enviar {
+    margin: 10px;
+}
+
+.reservas-fechas-paquetes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(173, 174, 123);
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 15px;
+}
+
+@media(max-width:412px) {
+    .reservas-fechas-paquetes {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+        border-radius: 15px;
+        flex-direction: column;
+        align-items: center
+    }
+}

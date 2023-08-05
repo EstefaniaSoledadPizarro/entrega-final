@@ -285,9 +285,20 @@ h4 {
     flex-direction: column;
     align-items: center; } }
 
+#accordionExample {
+  max-width: 850px;
+  margin: auto; }
+
 .container-xl {
   height: 60vh;
   width: 60vw; }
+
+.accordion-item {
+  background-color: #dedfc4 !important; }
+
+.accordion-button {
+  background-color: #cecfb4 !important;
+  color: #0b611c !important; }
 
 @media (max-width: 412px) {
   div .accordion-body {
@@ -396,6 +407,35 @@ h5 {
 
 .carousel-inner {
   justify-content: space-evenly; }
+
+.contacto-paquetes {
+  width: 200px;
+  margin: 20px;
+  padding: 15px;
+  text-transform: uppercase;
+  background-color: #196028;
+  border-radius: 15px; }
+
+.enviar {
+  margin: 10px; }
+
+.reservas-fechas-paquetes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #adae7b;
+  margin-left: 350px;
+  margin-right: 350px;
+  border-radius: 15px; }
+
+@media (max-width: 412px) {
+  .reservas-fechas-paquetes {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center; } }
 
 .div-footer {
   display: flex;

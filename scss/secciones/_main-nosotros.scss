@@ -1,6 +1,20 @@
+#accordionExample {
+    max-width: 850px;
+    margin: auto;
+}
+
 .container-xl {
     height: 60vh;
     width: 60vw;
+}
+
+.accordion-item {
+    background-color: rgb(222, 223, 196) !important;
+}
+
+.accordion-button {
+    background-color: rgb(206, 207, 180) !important;
+    color: rgb(11, 97, 28) !important;
 }
 
 
