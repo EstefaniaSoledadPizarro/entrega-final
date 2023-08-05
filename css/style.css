@@ -10,6 +10,60 @@ main {
 footer {
   background-color: #c7ab75; }
 
+@media (max-width: 412px) {
+  .servicio-mendoza-caja {
+    margin-left: 10px !important;
+    margin-right: 10px !important; }
+  .video-presentacion-mendoza {
+    width: max-content; }
+  .barra-navegacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end !important; }
+  .reservas-fechas {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center; }
+  div .accordion-body {
+    display: flex;
+    justify-content: center; }
+  div .accordion-item {
+    display: flex;
+    justify-content: center; }
+  div .carrousel-iner {
+    margin: 20px; }
+  .card-mobile {
+    display: block;
+    font-size: xx-small; }
+  .card-mobile {
+    display: block; }
+  .grid-padre {
+    display: none; }
+  .card {
+    margin: 20px;
+    background-color: #c7ab75 !important;
+    justify-content: center; }
+  h6 {
+    text-align: center; }
+  .titulo-paquetes-mobile {
+    font-family: monospace;
+    font-size: xx-large;
+    text-decoration: none;
+    color: #bc8a1e; }
+  .card-text {
+    font-family: monospace;
+    font-size: large;
+    text-decoration: none;
+    color: blanchedalmond; }
+  .autos {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+  .cronos {
+    max-width: 275px; } }
+
 header {
   background-image: linear-gradient(#efe8f0, #a96e32);
   padding: 10px; }
