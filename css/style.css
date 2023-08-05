@@ -7,32 +7,8 @@ main {
   background-color: #c7b58f;
   padding: 20px; }
 
-@media (max-width: 412px) {
-  .video-presentacion-mendoza {
-    width: max-content; }
-  .barra-navegacion {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end !important; }
-  .reservas-fechas {
-    margin-left: 15px !important;
-    margin-right: 15px !important;
-    border-radius: 15px;
-    flex-direction: column;
-    align-items: center; }
-  div .accordion-body {
-    display: flex;
-    justify-content: center; }
-  div .accordion-item {
-    display: flex;
-    justify-content: center; }
-  div .carrousel-iner {
-    margin: 20px; }
-  .tabla-paquetes {
-    display: none; }
-  .card-mobile {
-    display: block;
-    font-size: xx-small; } }
+footer {
+  background-color: #c7ab75; }
 
 header {
   background-image: linear-gradient(#efe8f0, #a96e32);
@@ -120,16 +96,24 @@ a:visited {
 main {
   color: blanchedalmond; }
 
-.servicio-mendoza {
+.servicio-mendoza-caja {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  background-color: #c7ab75;
+  margin-left: 170px;
+  margin-right: 170px;
+  border-radius: 15px; }
 
 h1 {
   color: chocolate !important;
   font-family: monospace;
   font-size: large;
   font-weight: bolder; }
+
+.video-presentacion-mendoza {
+  padding: 10px;
+  padding-bottom: 20px; }
 
 article {
   display: flex;
@@ -188,11 +172,35 @@ h2 .reservas {
   margin-top: 30px; }
 
 h4 {
+  margin: 12px;
+  padding: 20px;
   font-family: monospace;
   font-size: x-large;
   color: chocolate !important;
   display: flex;
   justify-content: center; }
+
+h4 {
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    opacity: 1; } }
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    opacity: 1; } }
 
 .card-title-2 {
   font-family: monospace;
@@ -206,98 +214,134 @@ h4 {
   text-decoration: none;
   color: #af7e13; }
 
+@media (max-width: 412px) {
+  .servicio-mendoza-caja {
+    margin-left: 10px !important;
+    margin-right: 10px !important; }
+  .video-presentacion-mendoza {
+    width: max-content; }
+  .barra-navegacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end !important; }
+  .reservas-fechas {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center; } }
+
 .container-xl {
   height: 60vh;
   width: 60vw; }
 
-/* probando */
-.grilla-padre1 {
-  background-color: #c4d7b2;
-  border: 4px #0c4040 dotted;
+@media (max-width: 412px) {
+  div .accordion-body {
+    display: flex;
+    justify-content: center; }
+  div .accordion-item {
+    display: flex;
+    justify-content: center; }
+  div .carrousel-iner {
+    margin: 20px; }
+  .card-mobile {
+    display: block;
+    font-size: xx-small; } }
+
+.grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: 10px; }
 
-.paquetes-turisticos {
-  width: 1200px;
-  margin: auto; }
-
-.img-1 {
-  width: 400px;
-  padding: 5px;
+.grid-item {
+  border-radius: 15px;
+  margin-left: 2px;
+  margin-right: 2px;
+  background-color: #c7ab75;
+  padding-top: 10px;
+  padding-bottom: 2px;
   text-align: center; }
 
-.img-2 {
-  width: 400px;
-  padding: 5px;
-  text-align: center; }
+.titulo-paquetes {
+  font-size: larger;
+  font-family: monospace; }
 
-.img-3 {
-  width: 400px;
-  padding: 5px;
-  text-align: center; }
-
-.titulos-paquetes {
+.grid-texto {
   font-family: monospace;
   font-size: large;
-  color: #2e1c3e;
-  font-weight: bolder; }
+  text-decoration: none;
+  color: blanchedalmond; }
 
-.paquete-1 {
-  padding: 5px;
-  text-align: center; }
-
-.paquete-2 {
-  padding: 5px;
-  text-align: center; }
-
-.paquete-3 {
-  padding: 5px;
-  text-align: center; }
-
-.info-paquetes {
-  font-family: monospace;
-  font-size: medium;
-  color: #2e1c3e; }
-
-.info-1 {
-  padding: 5px;
-  text-align: left; }
-
-.info-2 {
-  padding: 5px;
-  text-align: left; }
-
-.info-3 {
-  padding: 5px;
-  text-align: left; }
-
-.tabla-paquetes {
+.grid-padre {
   display: block; }
 
 .card-mobile {
   display: none; }
 
+@media (max-width: 412px) {
+  .card-mobile {
+    display: block; }
+  .grid-padre {
+    display: none; }
+  .card {
+    margin: 20px;
+    background-color: #c7ab75 !important;
+    justify-content: center; }
+  h6 {
+    text-align: center; }
+  .titulo-paquetes-mobile {
+    font-family: monospace;
+    font-size: xx-large;
+    text-decoration: none;
+    color: #bc8a1e; }
+  .card-text {
+    font-family: monospace;
+    font-size: large;
+    text-decoration: none;
+    color: blanchedalmond; } }
+
+.text-uppercase {
+  background-color: #c7ab75;
+  border-radius: 15px; }
+
 h5 {
   font-family: monospace;
   font-size: large;
-  color: #2e1c3e;
   margin: 15px;
-  display: flex;
-  justify-content: center;
-  text-decoration: underline; }
-
-.autos div {
+  padding-top: 30px;
   display: flex;
   justify-content: center; }
+
+.autos {
+  display: flex;
+  justify-content: center; }
+
+.cronos {
+  max-height: 183px; }
+
+.cuatro-pasajeros {
+  margin: 20px; }
+
+.cinco-pasajeros {
+  margin: 20px; }
+
+.dieciocho-pasajeros {
+  margin: 20px; }
+
+@media (max-width: 412px) {
+  .autos {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+  .cronos {
+    max-width: 275px; } }
 
 .main-galeria {
   min-height: 246px; }
 
 .carousel-inner {
   justify-content: space-evenly; }
-
-footer {
-  background-color: #c7ab75; }
 
 .div-footer {
   display: flex;

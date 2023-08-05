@@ -17,7 +17,7 @@
         <section>
             <img class="logo" id="arriba" src="../Resources/LogoSample_ByTailorBrands.jpg" alt="montañas-baco-turismo">
         </section>
-        <div class="primera-mayuscula">
+        <div class="barra-navegacion">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="content-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -43,19 +43,19 @@
                                 <a class="nav-link" href="../Pages/Galeria.html">galeria</a>
                             </li>
                         </ul>
+
                     </div>
-                </div>
             </nav>
         </div>
     </header>
-
     <!-- Main -->
     <main>
         <div class="accordion" id="accordionExample">
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button text-uppercase font-monospace" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <button class="accordion-button text-uppercase font-monospace" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                        aria-controls="collapseOne">
                         nuestra historia
                     </button>
                 </h2>
@@ -74,22 +74,28 @@
             </div>
         </div>
         <article>
-            <iframe class="container-xl" src="https://www.youtube.com/embed/Qtfmp2Ro_mU"
-                title="YouTube video player" frameborder="0"
+            <iframe class="container-xl" src="https://www.youtube.com/embed/Qtfmp2Ro_mU" title="YouTube video player"
+                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </article>
     </main>
-
+    <!-- Footer -->
     <footer>
-        <!-- Footer -->
-        <a href="https://instagram.com/turismo.mendoza?igshid=MzRlODBiNWFlZA==">📷</a>
-        <a href="https://www.facebook.com/Turismo.Mza?mibextid=ZbWKwL">📱</a>
-        <a href="#arriba">baco turismo</a>
+        <div class="div-footer">
+            <a href="https://instagram.com/turismo.mendoza?igshid=MzRlODBiNWFlZA==">📷</a>
+            <a href="#arriba">baco turismo</a>
+            <a href="https://www.facebook.com/Turismo.Mza?mibextid=ZbWKwL">📱</a>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

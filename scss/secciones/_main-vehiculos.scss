@@ -1,14 +1,45 @@
+.text-uppercase{
+    background-color: #c7ab75;
+    border-radius: 15px;
+}
+
 h5 {
     font-family: monospace;
     font-size: large;
-    color: rgb(46, 28, 62);
     margin: 15px;
+    padding-top: 30px;
     display: flex;
     justify-content: center;
-    text-decoration: underline;
 }
 
-.autos div {
+.autos {
     display: flex;
     justify-content: center;
+}
+ .cronos{
+    max-height: 183px;
+}
+
+.cuatro-pasajeros{
+    margin: 20px;
+}
+
+.cinco-pasajeros{
+    margin: 20px;
+}
+
+.dieciocho-pasajeros{
+    margin: 20px;
+}
+
+
+@media(max-width:412px){
+.autos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cronos{
+    max-width: 275px;
+}
 }

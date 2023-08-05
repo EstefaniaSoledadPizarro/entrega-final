@@ -1,4 +1,26 @@
-.container-xl{
+.container-xl {
     height: 60vh;
     width: 60vw;
+}
+
+
+@media(max-width:412px) {
+    div .accordion-body {
+        display: flex;
+        justify-content: center;
+    }
+
+    div .accordion-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    div .carrousel-iner {
+        margin: 20px;
+    }
+
+    .card-mobile {
+        display: block;
+        font-size: xx-small;
+    }
 }

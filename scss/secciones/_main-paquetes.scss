@@ -1,78 +1,73 @@
-/* probando */
-.grilla-padre1 {
-    background-color:  rgb(196, 215, 178);
-    border: 4px rgb(12, 64, 64) dotted;
+
+
+.grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 10px;
 }
 
-
-
-.paquetes-turisticos{
-    width: 1200px;
-    margin: auto;
-}
-.img-1{  
- width: 400px;
-    padding: 5px;
+.grid-item {
+    border-radius: 15px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: #c7ab75;
+    padding-top: 10px;
+    padding-bottom: 2px;
     text-align: center;
 }
 
-.img-2{
-    width: 400px;
-    padding: 5px;
-    text-align: center;
+.titulo-paquetes {
+    font-size: larger;
+    font-family: monospace;
 }
 
-.img-3{
-    width: 400px;
-    padding: 5px;
-    text-align: center;
-}
-
-.titulos-paquetes{
+.grid-texto {
     font-family: monospace;
     font-size: large;
-    color: rgb(46, 28, 62);
-    font-weight: bolder;
-}
-.paquete-1{
-    padding: 5px;
-    text-align: center;
+    text-decoration: none;
+    color: blanchedalmond;
 }
 
-.paquete-2{
-    padding: 5px;
-    text-align: center;
-}
-.paquete-3{
-    padding: 5px;
-    text-align: center;
-}
-
-.info-paquetes{
-    font-family: monospace;
-    font-size: medium;
-    color: rgb(46, 28, 62);
-}
-
-.info-1{
-    padding: 5px;
-    text-align: left;
-}
-
-.info-2{
-    padding: 5px;
-    text-align: left;
-}
-
-.info-3{
-    padding: 5px;
-    text-align: left;
-}
-.tabla-paquetes{
+.grid-padre {
     display: block;
 }
-.card-mobile{
+
+.card-mobile {
     display: none;
+}
+
+@media(max-width:412px) {
+    .card-mobile {
+        display: block;
+    }
+
+    .grid-padre {
+        display: none;
+    }
+
+    .card {
+        margin: 20px;
+        background-color: #c7ab75 !important;
+        justify-content: center;
+    }
+
+    h6 {
+        text-align: center;
+    }
+
+    .titulo-paquetes-mobile{
+        font-family: monospace;
+        font-size: xx-large;
+        text-decoration: none;
+        color: rgb(188, 138, 30);
+    }
+
+    .card-text {
+        font-family: monospace;
+        font-size: large;
+        text-decoration: none;
+        color: blanchedalmond;
+
+    }
 }

@@ -1,11 +1,15 @@
-main {
+main{
     color: blanchedalmond;
 }
 
-.servicio-mendoza {
+.servicio-mendoza-caja {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #c7ab75;
+    margin-left : 170px;
+    margin-right: 170px;
+    border-radius: 15px;
 }
 
 h1 {
@@ -14,16 +18,10 @@ h1 {
     font-size: large;
     font-weight: bolder;
 }
-
-
-
-// p {
-//     font-size: x-large;
-//     font-weight: bold;
-//     font-family: monospace;
-//     color: rgb(46, 28, 62);
-//     margin: 10px;
-// }
+.video-presentacion-mendoza{
+padding: 10px;
+padding-bottom: 20px;
+}
 
 article {
     display: flex;
@@ -92,12 +90,43 @@ margin-top: 30px;
 }
 
 h4 {
+    margin: 12px;
+    padding: 20px;
     font-family: monospace;
     font-size: x-large;
     color: chocolate !important;
     display: flex;
     justify-content: center;
 }
+h4{
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
 
 .card-title-2 {
     font-family: monospace;
@@ -111,4 +140,30 @@ h4 {
     font-size: large;
     text-decoration: none;
     color: rgb(175, 126, 19);
+}
+
+
+@media(max-width:412px) {
+    .servicio-mendoza-caja {
+        margin-left : 10px !important;
+        margin-right: 10px !important;
+    }
+
+    .video-presentacion-mendoza {
+        width: max-content;
+    }
+
+    .barra-navegacion {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end !important;
+    }
+
+    .reservas-fechas {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+        border-radius: 15px;
+        flex-direction: column;
+        align-items: center
+    }
 }
