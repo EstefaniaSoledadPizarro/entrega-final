@@ -1,4 +1,4 @@
-.carousel-container{
+.carousel-container {
     display: flex;
     justify-content: center;
 }
@@ -17,33 +17,33 @@
     color: rgb(11, 97, 28) !important;
 }
 
-.imagen-carrousel{
+.imagen-carrousel {
     width: 600px;
 }
 
-@media(max-width:412px) {
-
-main{
-    min-height: 700px;
-}
+@media(max-width: 412px) {
+    main {
+        min-height: 700px;
+    }
+    
     #accordionExample {
         margin: auto;
     }
-
+    
     div .accordion-body {
         display: flex;
         justify-content: center;
     }
-
+    
     div .accordion-item {
         display: flex;
         justify-content: center;
     }
-
-    .imagen-carrousel{
+    
+    .imagen-carrousel {
         width: 300px;
     }
-
+    
     div .carrousel-iner {
         margin: 20px;
     }

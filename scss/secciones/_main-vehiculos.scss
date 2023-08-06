@@ -1,4 +1,4 @@
-.text-uppercase{
+.text-uppercase {
     background-color: #c7ab75;
     border-radius: 15px;
 }
@@ -16,30 +16,31 @@ h5 {
     display: flex;
     justify-content: center;
 }
- .cronos{
+
+.cronos {
     max-height: 183px;
 }
 
-.cuatro-pasajeros{
+.cuatro-pasajeros {
     margin: 20px;
 }
 
-.cinco-pasajeros{
+.cinco-pasajeros {
     margin: 20px;
 }
 
-.dieciocho-pasajeros{
+.dieciocho-pasajeros {
     margin: 20px;
 }
 
+@media(max-width:412px) {
+    .autos {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 
-@media(max-width:412px){
-.autos {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.cronos{
-    max-width: 275px;
-}
+    .cronos {
+        max-width: 275px;
+    }
 }

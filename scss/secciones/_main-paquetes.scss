@@ -1,3 +1,4 @@
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -35,7 +36,6 @@
     display: none;
 }
 
-
 @media(max-width:412px) {
     .card-mobile {
         display: block;
@@ -67,6 +67,5 @@
         font-size: large;
         text-decoration: none;
         color: blanchedalmond;
-
     }
 }

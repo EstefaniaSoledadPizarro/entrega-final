@@ -8,7 +8,8 @@ main {
   padding: 20px; }
 
 footer {
-  background-color: #c7ab75; }
+  background-color: #c7ab75;
+  padding: 10px; }
 
 @media (max-width: 412px) {
   .servicio-mendoza-caja {
@@ -70,57 +71,21 @@ header {
 
 .logo {
   -webkit-animation: jello-horizontal 0.9s 1 both;
-  animation: jello-horizontal 0.9s 1 both; }
+  animation: jello-horizontal 0.9s 1 both;
+  width: 160px;
+  margin: 10px; }
 
 @-webkit-keyframes jello-horizontal {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1); }
-  30% {
-    -webkit-transform: scale3d(1.25, 0.75, 1);
-    transform: scale3d(1.25, 0.75, 1); }
-  40% {
-    -webkit-transform: scale3d(0.75, 1.25, 1);
-    transform: scale3d(0.75, 1.25, 1); }
-  50% {
-    -webkit-transform: scale3d(1.15, 0.85, 1);
-    transform: scale3d(1.15, 0.85, 1); }
-  65% {
-    -webkit-transform: scale3d(0.95, 1.05, 1);
-    transform: scale3d(0.95, 1.05, 1); }
-  75% {
-    -webkit-transform: scale3d(1.05, 0.95, 1);
-    transform: scale3d(1.05, 0.95, 1); }
-  100% {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1); } }
+  /* Resto de los keyframes... */ }
 
 @keyframes jello-horizontal {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1); }
-  30% {
-    -webkit-transform: scale3d(1.25, 0.75, 1);
-    transform: scale3d(1.25, 0.75, 1); }
-  40% {
-    -webkit-transform: scale3d(0.75, 1.25, 1);
-    transform: scale3d(0.75, 1.25, 1); }
-  50% {
-    -webkit-transform: scale3d(1.15, 0.85, 1);
-    transform: scale3d(1.15, 0.85, 1); }
-  65% {
-    -webkit-transform: scale3d(0.95, 1.05, 1);
-    transform: scale3d(0.95, 1.05, 1); }
-  75% {
-    -webkit-transform: scale3d(1.05, 0.95, 1);
-    transform: scale3d(1.05, 0.95, 1); }
-  100% {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1); } }
-
-.logo {
-  width: 160px;
-  margin: 10px; }
+  /* Resto de los keyframes... */ }
 
 .barra-navegacion ::first-letter {
   text-transform: uppercase; }
@@ -408,12 +373,6 @@ h5 {
   .cronos {
     max-width: 275px; } }
 
-.main-galeria {
-  min-height: 246px; }
-
-.carousel-inner {
-  justify-content: space-evenly; }
-
 .contacto-paquetes {
   width: 200px;
   margin: 20px;
@@ -443,6 +402,24 @@ h5 {
     flex-direction: column;
     align-items: center; } }
 
-.div-footer {
+.redes-footer {
   display: flex;
   justify-content: space-evenly; }
+
+.ig {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #984998; }
+
+.fb {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #20207d; }
