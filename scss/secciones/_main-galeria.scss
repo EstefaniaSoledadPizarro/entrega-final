@@ -22,7 +22,21 @@
     border-radius: 15px;
 }
 
+@media (max-width:880px){
+    .reservas-fechas-paquetes {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+        border-radius: 15px;
+        flex-direction: column;
+        align-items: center;
+    } 
+}
+
 @media(max-width:412px) {
+    .contacto-paquetes {
+        width: 25vw;
+        margin: auto;}
+
     .reservas-fechas-paquetes {
         margin-left: 15px !important;
         margin-right: 15px !important;

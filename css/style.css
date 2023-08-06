@@ -112,6 +112,11 @@ a:link {
 a:visited {
   color: #0d7121; }
 
+@media (max-width: 412px) {
+  .logo {
+    width: 120px;
+    margin: 2px; } }
+
 main {
   color: blanchedalmond; }
 
@@ -232,6 +237,23 @@ h4 {
   font-size: large;
   text-decoration: none;
   color: #af7e13; }
+
+@media (max-width: 880px) {
+  .servicio-mendoza-caja {
+    margin-left: 10px !important;
+    margin-right: 10px !important; }
+  .video-presentacion-mendoza {
+    width: max-content; }
+  .barra-navegacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end !important; }
+  .reservas-fechas {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center; } }
 
 @media (max-width: 412px) {
   .servicio-mendoza-caja {
@@ -365,6 +387,14 @@ h5 {
 .dieciocho-pasajeros {
   margin: 20px; }
 
+@media (max-width: 880px) {
+  .autos {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+  .cronos {
+    max-width: 275px; } }
+
 @media (max-width: 412px) {
   .autos {
     display: flex;
@@ -394,7 +424,18 @@ h5 {
   margin-right: 350px;
   border-radius: 15px; }
 
+@media (max-width: 880px) {
+  .reservas-fechas-paquetes {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center; } }
+
 @media (max-width: 412px) {
+  .contacto-paquetes {
+    width: 25vw;
+    margin: auto; }
   .reservas-fechas-paquetes {
     margin-left: 15px !important;
     margin-right: 15px !important;
